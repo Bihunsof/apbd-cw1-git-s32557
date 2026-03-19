@@ -16,4 +16,24 @@ public class StatisticsHelper {
             throw new IllegalArgumentException("Array cannot be null or empty");
         }
     }
+
+    public static int calculateMax(int[] values) {
+        validate(values);
+
+        int max = values[0];
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] > max) {
+                max = values[i];
+            }
+        }
+
+        return max;
+    }
+
+    public static int calculateMin(int[] values) {
+        validate(values);
+        int min = values[0];
+        return min;
+    }
+    
 }

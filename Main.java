@@ -6,6 +6,7 @@ public class Main {
         int[] values = {4, 8, 2, 10, 6};
         
         System.out.println("Average: " + StatisticsHelper.calculateAverage(values));
+        System.out.println("Max: " + StatisticsHelper.calculateMax(values));
 
     }
 }
