@@ -29,5 +29,5 @@ public class StatisticsHelper {
 
         return max;
     }
-    
+
 }
