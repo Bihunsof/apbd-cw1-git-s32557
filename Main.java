@@ -7,6 +7,6 @@ public class Main {
         
         System.out.println("Average: " + StatisticsHelper.calculateAverage(values));
         System.out.println("Max: " + StatisticsHelper.calculateMax(values));
-
+        System.out.println("Min: " + StatisticsHelper.calculateMin(values));
     }
 }
