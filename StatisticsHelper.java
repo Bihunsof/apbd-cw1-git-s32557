@@ -41,5 +41,4 @@ public class StatisticsHelper {
         }
         return min;
     }
-
 }
