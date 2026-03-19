@@ -32,8 +32,14 @@ public class StatisticsHelper {
 
     public static int calculateMin(int[] values) {
         validate(values);
+
         int min = values[0];
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] < min) {
+                min = values[i];
+            }
+        }
         return min;
     }
-    
+
 }
