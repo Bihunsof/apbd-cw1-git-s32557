@@ -9,4 +9,7 @@ public class Main {
         System.out.println("Max: " + StatisticsHelper.calculateMax(values));
         System.out.println("Min: " + StatisticsHelper.calculateMin(values));
     }
+    private static String getSummaryLabel() {
+        return "Statistics summary - master branch";
+    }
 }
